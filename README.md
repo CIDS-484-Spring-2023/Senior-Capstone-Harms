@@ -13,3 +13,5 @@ ________________________________________________________________________________
 Progress: 
 
 updated README, working on App prototype on Axure, outline and overview created, a video posted for milestone 1
+
+Milestone 2: Sarted working on the website edition of the app, added more to the protype of the app
