@@ -15,3 +15,11 @@ Progress:
 updated README, working on App prototype on Axure, outline and overview created, a video posted for milestone 1
 
 Milestone 2: Sarted working on the website edition of the app, added more to the protype of the app
+
+Milestone 3: Completed created the different pages needed for app. including, login, sign, profile, home, and navigation bar. Looking into how to download Expo onto laptop in order to see the development of the app as it goes.
+
+Milestone 4: Have developed the pages on the app and connected them. I was able to create an app and a website social media at the same time. Expo wasn't able to download on my Mac becuase its an older version. Instead I used a style sheet to change how it will appear on different screens(can be seen in styles.scss)
+
+Final: Could not get to backend development. Struggled with trying to make a database in SQL so I Vertabelo to design my database, I uploaded my physcial data model and the SQL. 
+
+
