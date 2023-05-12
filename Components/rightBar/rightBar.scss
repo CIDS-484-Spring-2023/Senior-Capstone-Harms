@@ -1,0 +1,87 @@
+@import "../../styles.scss";
+
+.rightbar{
+    background-color: #2CA3A7;
+    color: white;
+    flex: 3;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh -70px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+
+    }
+     @include mobile{
+        display: none;
+    }
+    @include tablet{
+        display: none;
+    }
+    
+    
+    .container{
+        padding: 20px;
+        .item{
+            .span{
+                color: #435772;
+
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                padding: 20px;
+
+                .userinfo{
+                    display: flex;
+                    align-items: center;
+                    .img{
+                        width: 30px;
+                        height: 30px;
+                        border: 50%;
+                        object-fit: cover;
+
+                 }
+                 .p{
+                    color: lightgray;
+                 }
+                    .span{
+                        font-weight: 500;
+
+                 }
+                 .span{
+                    color: lightgray;
+                 }
+                }
+                .buttons{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .button{
+                        border: none;
+                        padding: 5px;
+                        color: white;
+                        cursor: pointer;
+
+                        &:first-child{
+                            background-color: #68E761;
+            
+                        }
+
+                        &:last-child{
+                            background-color: #E76161;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
+
+    

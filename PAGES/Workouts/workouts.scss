@@ -1,0 +1,81 @@
+.workout{
+    background-color: #435772;
+    .container{
+        border: lightblue;
+        gap: 20px;
+        padding: 20px 70px;
+        @include mobile{
+            padding: 10px;
+        }
+        @include tablet{
+            padding: 20px;;
+        }
+
+        .name{
+            height: 100px;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            color: white;
+
+            .form{
+
+                .input{
+                    border: none;
+                    width: 100px;
+                    background-color: transparent;
+                    color:white;
+                    gap: 20px;
+                    @include mobile{
+                       display: none;
+                    }
+                    @include tablet{
+                        width: 200px;;
+                    }
+                }
+            }
+        }
+        .inputs{
+            height: 600px;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            color: white;
+
+            .forms{
+                border: lightblue;
+                padding: 20px;
+                gap: 20px;
+
+                .input{
+                    border: none;
+                    width: 100px;
+                    background-color: transparent;
+                    color:white;
+                    gap: 20px;
+                    @include mobile{
+                       display: none;
+                    }
+                    @include tablet{
+                        width: 200px;;
+                    }
+                }
+            }
+            .button{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border: none;
+                padding: 5px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                background-color: #68E761;
+            }
+        }
+    }
+}

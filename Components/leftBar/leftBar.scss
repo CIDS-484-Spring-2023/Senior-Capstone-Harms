@@ -1,0 +1,57 @@
+@import "../../styles.scss";
+
+.leftbar{
+    background-color: #2CA3A7;
+    color:  white;
+    flex: 2;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh -70px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    @include mobile{
+        display: none;
+    }
+
+    .container{
+        padding: 20px;
+        .menu{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .img{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    object-fit: cover;
+
+                }
+                
+            }
+            .friends{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+            }
+            .workouts{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                
+            }
+            .posts{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+        
+            }
+        }
+    }
+}

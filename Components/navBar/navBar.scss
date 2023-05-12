@@ -1,0 +1,77 @@
+@import "../../styles.scss";
+.navbar{
+    background-color: #E76161;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    z-index: 999;
+
+    .leftbar{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .span{
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid lightblue;
+            border-radius: 5px;
+            padding: 5px;
+
+            .input{
+                border: none;
+                width: 100px;
+
+                @include mobile{
+                    display: none;
+                }
+
+                @include tablet{
+                    width: 200px;;
+                }
+
+            }
+        }
+    }
+
+    .rightbar{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @include mobile{
+            display: none;
+        }
+
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-weight: 500;
+
+            @include tablet{
+                display: none;
+            }
+
+            .img{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+
+            }
+            
+        }
+
+    }
+}
